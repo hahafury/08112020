@@ -1,8 +1,16 @@
+* {
+  font-family: Geneva, Arial, Helvetica monospace;
+}
+
 /* Указываем box sizing */
 *,
 *::before,
 *::after {
   box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
 }
 
 /* Убираем внутренние отступы */
@@ -76,37 +84,3 @@ select {
     scroll-behavior: auto !important;
   }
 }
-
-.header {
-  margin: 0 auto;
-  width: 90%;
-  height: 100px;
-  background-color: grey;
-}
-
-.header h1 {
-  padding: 20px;
-  color: white;
-}
-
-.container {
-  margin: 0 auto;
-  width: 90%;
-  overflow-x: auto;
-  overflow-y: hidden;
-  display: flex;
-}
-
-.mainContainer {
-  width: 70%;
-  background-color: #d2d2d2;
-  height: 500px;
-}
-
-.sideContainer {
-  background-color: #ece8e8;
-  width: 30%;
-  height: 500px;
-}
-
-2
